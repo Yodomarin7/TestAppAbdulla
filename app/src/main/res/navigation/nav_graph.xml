@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchCardFragment">
+    <fragment
+        android:id="@+id/searchCardFragment"
+        android:name="com.example.testappabdulla.screen.SearchCardFragment"
+        android:label="search_card_fragment"
+        tools:layout="@layout/fragment_search_card" >
+        <action
+            android:id="@+id/action_searchCardFragment_to_cardInfoFragment"
+            app:destination="@id/cardInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardInfoFragment"
+        android:name="com.example.testappabdulla.screen.CardInfoFragment"
+        android:label="fragment_card_info"
+        tools:layout="@layout/fragment_card_info" >
+        <argument
+            android:name="card"
+            app:argType="string" />
+    </fragment>
+</navigation>

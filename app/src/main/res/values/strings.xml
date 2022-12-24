@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestAppAbdulla</string>
+    <string name="label">Enter the first digits of a card number (BIN/IIN)</string>
+    <string name="content_description_start_icon">Search</string>
+    <string name="same_text">Same text</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wrong_format">Wrong response format</string>
+    <string name="loading">Загрузка данных....</string>
+    <string name="again">Ещё раз</string>
+    <string name="error">Common error text</string>
+</resources>
